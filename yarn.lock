@@ -18,13 +18,13 @@
   dependencies:
     pkg-up "^3.1.0"
 
-"@fastify/cors@^8.1.1":
-  version "8.3.0"
-  resolved "https://registry.yarnpkg.com/@fastify/cors/-/cors-8.3.0.tgz#f03d745731b770793a1a15344da7220ca0d19619"
-  integrity sha512-oj9xkka2Tg0MrwuKhsSUumcAkfp2YCnKxmFEusi01pjk1YrdDsuSYTHXEelWNW+ilSy/ApZq0c2SvhKrLX0H1g==
+"@fastify/cors@^10.0.0":
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/@fastify/cors/-/cors-10.0.0.tgz#6b077e7e2531591b1113e34de909fe52cd662d43"
+  integrity sha512-kb9fkc/LVbLTQ3lhA+ZZjC/Styzysodo/MTCdVCvTtgHa/gBwxrEEkcp3fuoKIfAQt85wksrpXjUGbw5NQffEQ==
   dependencies:
-    fastify-plugin "^4.0.0"
-    mnemonist "0.39.5"
+    fastify-plugin "^5.0.0"
+    mnemonist "0.39.8"
 
 "@fastify/deepmerge@^1.0.0":
   version "1.3.0"
@@ -327,6 +327,11 @@ fastify-plugin@^4.0.0, fastify-plugin@^4.3.0:
   resolved "https://registry.yarnpkg.com/fastify-plugin/-/fastify-plugin-4.5.0.tgz#8b853923a0bba6ab6921bb8f35b81224e6988d91"
   integrity sha512-79ak0JxddO0utAXAQ5ccKhvs6vX2MGyHHMMsmZkBANrq3hXc1CHzvNPHOcvTsVMEPl5I+NT+RO4YKMGehOfSIg==
 
+fastify-plugin@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/fastify-plugin/-/fastify-plugin-5.0.0.tgz#59baeee39d6e8e729cd27333c366d3c0146ab23b"
+  integrity sha512-0725fmH/yYi8ugsjszLci+lLnGBK6cG+WSxM7edY2OXJEU7gr2JiGBoieL2h9mhTych1vFsEfXsAsGGDJ/Rd5w==
+
 fastify-print-routes@^2.0.6:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/fastify-print-routes/-/fastify-print-routes-2.1.0.tgz#d881c1efefcd03ecb39df0f7b18cdaddf28d2c45"
@@ -471,7 +476,14 @@ minimalistic-assert@^1.0.0:
   resolved "https://registry.yarnpkg.com/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz#2e194de044626d4a10e7f7fbc00ce73e83e4d5c7"
   integrity sha512-UtJcAD4yEaGtjPezWuO9wC4nwUnVH/8/Im3yEHQP4b67cXlD/Qr9hdITCU1xDbSEXg2XKNaP8jsReV7vQd00/A==
 
-mnemonist@0.39.5, mnemonist@^0.39.5:
+mnemonist@0.39.8:
+  version "0.39.8"
+  resolved "https://registry.yarnpkg.com/mnemonist/-/mnemonist-0.39.8.tgz#9078cd8386081afd986cca34b52b5d84ea7a4d38"
+  integrity sha512-vyWo2K3fjrUw8YeeZ1zF0fy6Mu59RHokURlld8ymdUPjMlD9EC9ov1/YPqTgqRvUN9nTr3Gqfz29LYAmu0PHPQ==
+  dependencies:
+    obliterator "^2.0.1"
+
+mnemonist@^0.39.5:
   version "0.39.5"
   resolved "https://registry.yarnpkg.com/mnemonist/-/mnemonist-0.39.5.tgz#5850d9b30d1b2bc57cc8787e5caa40f6c3420477"
   integrity sha512-FPUtkhtJ0efmEFGpU14x7jGbTB+s18LrzRL2KgoWz9YvcY3cPomz8tih01GbHwnGk/OmkOKfqd/RAQoc8Lm7DQ==
